@@ -1,0 +1,24 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iamgique/react-parcel.git",
+  "author": "iamgique <iamgique@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel -p 1234 public/index.html",
+    "build": "parcel build public/index.html -d build --public-url ./"
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^9.0.0",
+    "bootstrap": "^4.3.1",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.3.0",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.3.0",
+    "reactstrap": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4"
+  }
+}
