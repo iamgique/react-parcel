@@ -7,9 +7,13 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel -p 1234 public/index.html",
-    "build": "parcel build public/index.html -d build --public-url ./"
+    "build": "parcel build public/index.html -d build --public-url ./",
+    "test": "jest",
+    "test:watch": "jest --watch"
+
   },
   "dependencies": {
+    "babel-jest": "^24.9.0",
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -22,6 +26,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "jest": "^24.9.0",
+    "jest-transform-stub": "^2.0.0",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.22.12"
   }
