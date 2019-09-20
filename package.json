@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel -p 1234 public/index.html",
-    "build": "parcel build public/index.html -d build --public-url ./",
+    "build": "parcel build public/index.html -d build --public-url ./ --no-source-maps",
     "test": "jest",
     "test:watch": "jest --watch"
   },

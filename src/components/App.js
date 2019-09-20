@@ -1,5 +1,5 @@
 import React from 'react'
-import { Alert, Badge } from 'reactstrap';
+import { Alert, Badge } from 'reactstrap'
 import '../styles/style.scss'
 import logo from '../assets/images/react.png'
 
@@ -23,7 +23,6 @@ class App extends React.Component {
       </div>
     )
   };
-
 }
 
 export default App
