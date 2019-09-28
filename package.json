@@ -7,18 +7,25 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel -p 1234 public/index.html",
-    "build": "parcel build public/index.html -d build --public-url ./"
+    "build": "parcel build public/index.html -d build --public-url ./ --no-source-maps",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
-    "babel-preset-react-app": "^9.0.0",
+    "babel-jest": "^24.9.0",
     "bootstrap": "^4.3.1",
-    "parcel-bundler": "^1.12.3",
-    "react": "^16.3.0",
-    "react-bootstrap": "^1.0.0-beta.8",
-    "react-dom": "^16.3.0",
-    "reactstrap": "^8.0.0"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "reactstrap": "^8.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4"
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "jest": "^24.9.0",
+    "jest-transform-stub": "^2.0.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.12"
   }
 }
